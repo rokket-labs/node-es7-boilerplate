@@ -2,6 +2,12 @@
 
 Hola 👋 si quieres desarrollar cualquier cosa en node desde 0 y te da lata tener que hacer toda la investigación y configuración, te recomiendo este boilerplate que es de uso público.
 
+Si quieres usarlo simplemente haz lo siguiente:
+
+    git clone https://github.com/rokket-labs/node-es7-boilerplate.git [awesome-project-name]
+    cd [awesome-project-name]
+    npm install
+
 Para partirlo de forma local solo debes correr
 
     npm start
