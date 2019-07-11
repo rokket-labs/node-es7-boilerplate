@@ -6,6 +6,8 @@ Si quieres usarlo simplemente haz lo siguiente:
 
     git clone https://github.com/rokket-labs/node-es7-boilerplate.git [awesome-project-name]
     cd [awesome-project-name]
+    rm -rf .git
+    git remote add origin [awesome-project-git]
     npm install
 
 Para partirlo de forma local solo debes correr
