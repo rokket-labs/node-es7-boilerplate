@@ -1,29 +1,32 @@
 {
-  "name": "mu-boilerplate",
+  "name": "mongo-csv",
   "version": "1.0.0",
-  "description": "Microservice boilerplate",
+  "description": "Mongo CSV",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon ./node_modules/.bin/babel-node src",
-    "test": "ava test",
+    "start:dev": "./node_modules/.bin/nodemon ./node_modules/.bin/babel-node src",
+    "start": "node dist/index.js",
     "build": "babel src -d dist",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "eject": "rm -rf node_modules package-lock.json yarn.lock dist"
   },
   "author": "robertzibert",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "ava": "^2.2.0",
-    "eslint": "^6.1.0",
-    "eslint-config-standard": "^13.0.1",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "nodemon": "^1.19.1"
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.7",
+    "@babel/node": "7.8.7",
+    "@babel/preset-env": "7.8.7",
+    "@babel/register": "7.8.6",
+    "ava": "2.2.0",
+    "eslint": "6.1.0",
+    "eslint-config-standard": "13.0.1",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "nodemon": "2.0.2",
+    "prettier": "1.19.1",
+    "regenerator-runtime": "0.13.3"
   }
 }
